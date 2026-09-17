@@ -2,7 +2,7 @@
 
 I'm currently completing a **Master of Management in Analytics at Queen's University**, with a background in Statistics and experience in both banking and business analytics.
 
-I started my career in banking, working directly with clients at RBC and TD. Over time, I became more interested in the data behind business decisions — why customers behave differently, what drives performance, and how analysis can be turned into something useful. That led me to move further into analytics.
+I started my career in banking, working directly with clients at RBC and TD. Over time, I became more interested in the data behind business decisions: why customers behave differently, what drives performance, and how analysis can be turned into something useful. That led me to move further into analytics.
 
 Most of the work here comes from projects I've completed through school, work, and personal learning.
 
@@ -75,8 +75,6 @@ The goal is to examine whether incident characteristics and neighbourhood inform
 Master of Management in Analytics
 
 **BSc in Statistics**
-
-Before moving further into analytics, I worked in client-facing banking roles at **TD Canada Trust** and **RBC**, which gave me a good understanding of how financial products, customer behaviour, operations, and business decisions connect in practice.
 
 ## 💼 Connect
 
