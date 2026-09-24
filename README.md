@@ -6,7 +6,7 @@ I'm a **Master of Management in Analytics candidate at Queen's University** with
 
 I moved into analytics because I enjoy the part between *“we have data”* and *“so what should we do?”* My projects usually start with a practical question, then work through the data, modelling, validation, and interpretation needed to answer it.
 
-📍 Toronto · 📊 Business & Data Analytics · 🐶 Usually working with a Chihuahua nearby (her name is Amiu :P)
+📍 Toronto · 📊 Business & Data Analytics · 🐶 Usually working with a Chihuahua nearby (Her name is Amiu btw :P)
 
 ---
 
