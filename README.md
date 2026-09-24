@@ -2,38 +2,41 @@
 
 I'm currently completing a **Master of Management in Analytics at Queen's University**. My background is in Statistics, and I previously worked in client-facing banking roles at RBC and TD before moving into business analytics.
 
-I'm interested in using data to understand business problems rather than treating modelling as an end in itself. Most of my projects start with a practical question, then work through data preparation, modelling, evaluation, and interpretation.
+I'm interested in using data to answer practical business questions. Most of my projects start with a real decision problem, then move through data preparation, modelling, validation, and interpretation.
 
-## Skills & Projects
+## Featured Projects
 
-| Area | Project | Methods & Tools |
+| Project | Focus | Methods & Tools |
 |---|---|---|
-| **Python / Machine Learning** | [Negative Review Prediction in E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction) | Python, pandas, scikit-learn, LightGBM, CatBoost, K-Means, Optuna |
-| **Statistical Modelling** | Toronto Airbnb Pricing Analysis | OLS, log-price regression, feature engineering, model diagnostics |
-| **Optimization** | Toronto Warming Centre Optimization | Python, Monte Carlo simulation, MILP |
-| **SQL / Risk Analytics** | Credit Risk Analysis | SQL, R, logistic regression, ROC-AUC |
-| **Data Visualization** | Toronto Airbnb Pricing Analysis | Tableau, Python |
+| [Toronto Warming Centre Optimization](https://github.com/lambert-tan/toronto-warming-centre-optimization) | Staffing, capacity, and resource allocation under uncertain winter demand | Excel Solver, Python, Monte Carlo Simulation, Optimization |
+| [Negative Review Prediction in E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction) | Early identification of orders likely to receive negative reviews | Python, pandas, scikit-learn, LightGBM, CatBoost, K-Means |
+| Toronto Airbnb Pricing Analysis | Pricing drivers and host decision support | OLS, log-price regression, feature engineering, Tableau |
+| Credit Risk Analysis | Borrower risk estimation | SQL, R, Logistic Regression, ROC-AUC |
 
-I am gradually adding the underlying work for these projects to GitHub as I clean up the code and documentation.
+## Toronto Warming Centre Optimization
 
-## Featured Project
+This project combines **Excel Solver and Python simulation** to examine how staffing and bed capacity can be allocated across seven Toronto warming centres.
 
-### [Predicting Negative Customer Reviews in Brazilian E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction)
+The optimization allocated **19 staff** across a network with **301 physical beds**. Under the model assumptions, staffing could support more clients than the number of available beds, shifting the main operational constraint from labour toward physical capacity. I then used a **5,000-iteration Monte Carlo stress test** and compared alternative 10-bed expansion strategies.
 
-This project looks at a simple question: **how early can an e-commerce platform identify an order that is likely to receive a negative review?**
+[View the project](https://github.com/lambert-tan/toronto-warming-centre-optimization)
 
-I used **95,824 orders from the Olist Brazilian e-commerce dataset** and built models at two points in the order lifecycle. The placement-stage model uses information available when an order is placed, while the delivery-stage model adds information about the actual fulfilment process.
+## Negative Review Prediction in E-Commerce
 
-The final LightGBM placement model achieved an **F1 score of 0.318** and **ROC-AUC of 0.677**. After delivery information became available, the CatBoost model improved to an **F1 score of 0.484** and **ROC-AUC of 0.768**. I also used K-Means clustering to examine groups of orders with different review-risk patterns.
+Using **95,824 orders from the Olist Brazilian e-commerce dataset**, I built classification models at two points in the order lifecycle.
 
-The comparison is useful because the later model is more accurate, but the earlier model leaves more time to intervene. For me, that trade-off was more interesting than simply choosing the model with the higher score.
+The placement-stage LightGBM model achieved an **F1 score of 0.318** and **ROC-AUC of 0.677**. After delivery information became available, the CatBoost model improved to an **F1 score of 0.484** and **ROC-AUC of 0.768**.
+
+The main trade-off was between model performance and intervention time: the later model was more accurate, while the earlier model gave the business more time to act.
+
+[View the project](https://github.com/lambert-tan/olist-negative-review-prediction)
 
 ## Technical Skills
 
 **Languages:** Python · SQL · R  
-**Analytics and ML:** pandas · NumPy · scikit-learn · Statsmodels · LightGBM · CatBoost  
+**Analytics & ML:** pandas · NumPy · scikit-learn · Statsmodels · LightGBM · CatBoost  
+**Optimization & Modelling:** Excel Solver · Monte Carlo Simulation · Regression · Classification · Clustering  
 **Visualization:** Tableau · Matplotlib · Excel  
-**Methods:** Regression · Classification · Clustering · Monte Carlo Simulation · MILP  
 **Other:** Git · GitHub · PowerPoint
 
 ## Background
@@ -43,8 +46,8 @@ Master of Management in Analytics
 
 **BSc in Statistics**
 
-My previous banking experience gave me a strong interest in customer behaviour, risk, and the way analytical results are used in day-to-day decisions. I am now building on that experience through graduate coursework and applied analytics projects.
+My previous banking experience gave me a strong interest in customer behaviour, risk, and the way analytical results are used in day-to-day decisions.
 
 ## Connect
 
-I'm based in Toronto and currently exploring opportunities in business analytics, data analytics, customer analytics, and risk analytics.
+I'm based in Toronto and currently exploring opportunities in **business analytics, data analytics, customer analytics, and risk analytics**.
