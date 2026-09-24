@@ -1,83 +1,57 @@
-# Hi, I'm Lambert 
+# Hi, I'm Lambert 👋
 
-I'm currently completing a **Master of Management in Analytics at Queen's University**, with a background in Statistics and experience in both banking and business analytics.
+I'm a **Master of Management in Analytics candidate at Queen's University** with a background in Statistics and experience in banking and business analytics.
 
-I started my career in banking, working directly with clients at RBC and TD. Over time, I became more interested in the data behind business decisions: why customers behave differently, what drives performance, and how analysis can be turned into something useful. That led me to move further into analytics.
+I enjoy working on problems where data can support a real business decision — understanding customer behavior, predicting risk, improving operations, and turning analysis into something people can actually use.
 
-Most of the work here comes from projects I've completed through school, work, and personal learning.
+## 🧰 Skills & Projects
 
-## 🚀 What I'm working on 
+Each area below links to a project where I applied the skill in practice.
 
-I'm mainly interested in problems where data can support a real business decision, especially in:
+| Area | Project | Methods & Tools |
+|---|---|---|
+| **Python / Machine Learning** | [Negative Review Prediction in E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction) | Python, pandas, scikit-learn, LightGBM, CatBoost, K-Means, Optuna |
+| **Statistical Modeling** | Toronto Airbnb Pricing Analysis | OLS, log-price regression, feature engineering, model diagnostics |
+| **Optimization** | Toronto Warming Centre Optimization | Python, Monte Carlo simulation, MILP, scenario analysis |
+| **SQL / Risk Analytics** | Credit Risk Analysis | SQL, R, Logistic Regression, ROC-AUC |
+| **Data Visualization** | Toronto Airbnb Pricing Analysis | Tableau, Python, business storytelling |
 
-* Customer and marketing analytics
-* Predictive modelling
-* Risk and financial analytics
-* Business optimization
-* Data visualization
+> More project repositories will be linked here as I finish packaging the analyses for GitHub.
 
-Right now, I'm continuing to build my Python and SQL skills while working on more end-to-end analytics projects.
+## 📌 Featured Project
 
-## 📂 Selected Projects
+### [Predicting Negative Customer Reviews in Brazilian E-Commerce →](https://github.com/lambert-tan/olist-negative-review-prediction)
 
-### Toronto Airbnb Pricing Analysis
+How early can an e-commerce platform identify an order that is likely to result in a negative customer review?
 
-Analyzed Toronto Airbnb listings to understand what drives nightly prices.
+Using **95,824 Olist orders**, I compared prediction at two points in the order lifecycle:
 
-* Cleaned and engineered features from a dataset of 20,000+ listings
-* Created variables for host experience, amenities, location, review recency, and host quality
-* Built OLS and log-price regression models
-* Used variable selection and model diagnostics to improve the analysis
-* Turned the results into practical recommendations for Airbnb hosts
+- **At placement:** LightGBM — F1 **0.318**, ROC-AUC **0.677**
+- **At delivery:** CatBoost — F1 **0.484**, ROC-AUC **0.768**
+- Used **K-Means** to identify order profiles with substantially different review-risk patterns
+- Examined the business trade-off between **earlier intervention** and **stronger predictive information**
 
-**Tools:** Python, Pandas, Statsmodels, Tableau
+**Skills demonstrated:** machine learning · customer analytics · feature engineering · model evaluation · clustering · business interpretation
 
-### Toronto Warming Centre Optimization
+## 🔧 Technical Toolkit
 
-Used simulation and optimization to study how Toronto could allocate warming-centre capacity under a fixed nightly budget.
+**Languages:** Python · SQL · R  
+**Analytics & ML:** pandas · NumPy · scikit-learn · Statsmodels · LightGBM · CatBoost  
+**Visualization:** Tableau · Matplotlib · Excel  
+**Methods:** Regression · Classification · Clustering · Monte Carlo Simulation · MILP  
+**Other:** Git · GitHub · PowerPoint
 
-* Modelled demand uncertainty using Monte Carlo simulation
-* Built a mixed-integer optimization model for resource allocation
-* Reduced estimated turn-aways from 12 to 5 while staying within budget
-* Identified bed capacity as the main operational bottleneck
+## 🎓 Background
 
-**Tools:** Python, Monte Carlo Simulation, MILP, Excel
-
-### Credit Risk Analysis
-
-Built a credit-risk classification model using customer and financial data.
-
-* Used SQL for data preparation
-* Performed exploratory analysis in R
-* Built and evaluated a logistic regression model
-* Achieved approximately 85% classification accuracy and evaluated performance using ROC/AUC
-
-**Tools:** SQL, R, Logistic Regression
-
-### Toronto Crime Risk Analysis
-
-Currently exploring Toronto Police crime incident data together with neighbourhood-level Census data.
-
-The goal is to examine whether incident characteristics and neighbourhood information can help classify commercial-premise incidents and different levels of crime severity.
-
-**Tools:** Python, Pandas, Scikit-learn, Toronto Open Data
-
-## 🔧 Tools I Use
-
-**Languages:** Python, SQL, R
-**Analytics:** Pandas, NumPy, Scikit-learn, Statsmodels
-**Visualization:** Tableau, Matplotlib, Excel
-**Other:** Git, GitHub, PowerPoint
-
-## 🧑‍🎓 Background
-
-**Queen's University — Smith School of Business**
+**Queen's University — Smith School of Business**  
 Master of Management in Analytics
 
 **BSc in Statistics**
 
-## 💼 Connect
+Before moving further into analytics, I worked in client-facing banking roles at **RBC and TD**. That experience shaped how I approach analytics: the model matters, but so does the decision it is meant to support.
 
-I'm based in Toronto and currently building my portfolio as I move further into business and data analytics.
+## 📫 Connect
 
-Feel free to connect with me on LinkedIn or take a look through my projects.
+I'm based in Toronto and interested in opportunities across **business analytics, data analytics, customer analytics, and risk analytics**.
+
+Feel free to explore my projects or connect with me on LinkedIn.
