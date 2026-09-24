@@ -1,57 +1,50 @@
-# Hi, I'm Lambert 👋
+# Hi, I'm Lambert
 
-I'm a **Master of Management in Analytics candidate at Queen's University** with a background in Statistics and experience in banking and business analytics.
+I'm currently completing a **Master of Management in Analytics at Queen's University**. My background is in Statistics, and I previously worked in client-facing banking roles at RBC and TD before moving into business analytics.
 
-I enjoy working on problems where data can support a real business decision — understanding customer behavior, predicting risk, improving operations, and turning analysis into something people can actually use.
+I'm interested in using data to understand business problems rather than treating modelling as an end in itself. Most of my projects start with a practical question, then work through data preparation, modelling, evaluation, and interpretation.
 
-## 🧰 Skills & Projects
-
-Each area below links to a project where I applied the skill in practice.
+## Skills & Projects
 
 | Area | Project | Methods & Tools |
 |---|---|---|
 | **Python / Machine Learning** | [Negative Review Prediction in E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction) | Python, pandas, scikit-learn, LightGBM, CatBoost, K-Means, Optuna |
-| **Statistical Modeling** | Toronto Airbnb Pricing Analysis | OLS, log-price regression, feature engineering, model diagnostics |
-| **Optimization** | Toronto Warming Centre Optimization | Python, Monte Carlo simulation, MILP, scenario analysis |
-| **SQL / Risk Analytics** | Credit Risk Analysis | SQL, R, Logistic Regression, ROC-AUC |
-| **Data Visualization** | Toronto Airbnb Pricing Analysis | Tableau, Python, business storytelling |
+| **Statistical Modelling** | Toronto Airbnb Pricing Analysis | OLS, log-price regression, feature engineering, model diagnostics |
+| **Optimization** | Toronto Warming Centre Optimization | Python, Monte Carlo simulation, MILP |
+| **SQL / Risk Analytics** | Credit Risk Analysis | SQL, R, logistic regression, ROC-AUC |
+| **Data Visualization** | Toronto Airbnb Pricing Analysis | Tableau, Python |
 
-> More project repositories will be linked here as I finish packaging the analyses for GitHub.
+I am gradually adding the underlying work for these projects to GitHub as I clean up the code and documentation.
 
-## 📌 Featured Project
+## Featured Project
 
-### [Predicting Negative Customer Reviews in Brazilian E-Commerce →](https://github.com/lambert-tan/olist-negative-review-prediction)
+### [Predicting Negative Customer Reviews in Brazilian E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction)
 
-How early can an e-commerce platform identify an order that is likely to result in a negative customer review?
+This project looks at a simple question: **how early can an e-commerce platform identify an order that is likely to receive a negative review?**
 
-Using **95,824 Olist orders**, I compared prediction at two points in the order lifecycle:
+I used **95,824 orders from the Olist Brazilian e-commerce dataset** and built models at two points in the order lifecycle. The placement-stage model uses information available when an order is placed, while the delivery-stage model adds information about the actual fulfilment process.
 
-- **At placement:** LightGBM — F1 **0.318**, ROC-AUC **0.677**
-- **At delivery:** CatBoost — F1 **0.484**, ROC-AUC **0.768**
-- Used **K-Means** to identify order profiles with substantially different review-risk patterns
-- Examined the business trade-off between **earlier intervention** and **stronger predictive information**
+The final LightGBM placement model achieved an **F1 score of 0.318** and **ROC-AUC of 0.677**. After delivery information became available, the CatBoost model improved to an **F1 score of 0.484** and **ROC-AUC of 0.768**. I also used K-Means clustering to examine groups of orders with different review-risk patterns.
 
-**Skills demonstrated:** machine learning · customer analytics · feature engineering · model evaluation · clustering · business interpretation
+The comparison is useful because the later model is more accurate, but the earlier model leaves more time to intervene. For me, that trade-off was more interesting than simply choosing the model with the higher score.
 
-## 🔧 Technical Toolkit
+## Technical Skills
 
 **Languages:** Python · SQL · R  
-**Analytics & ML:** pandas · NumPy · scikit-learn · Statsmodels · LightGBM · CatBoost  
+**Analytics and ML:** pandas · NumPy · scikit-learn · Statsmodels · LightGBM · CatBoost  
 **Visualization:** Tableau · Matplotlib · Excel  
 **Methods:** Regression · Classification · Clustering · Monte Carlo Simulation · MILP  
 **Other:** Git · GitHub · PowerPoint
 
-## 🎓 Background
+## Background
 
 **Queen's University — Smith School of Business**  
 Master of Management in Analytics
 
 **BSc in Statistics**
 
-Before moving further into analytics, I worked in client-facing banking roles at **RBC and TD**. That experience shaped how I approach analytics: the model matters, but so does the decision it is meant to support.
+My previous banking experience gave me a strong interest in customer behaviour, risk, and the way analytical results are used in day-to-day decisions. I am now building on that experience through graduate coursework and applied analytics projects.
 
-## 📫 Connect
+## Connect
 
-I'm based in Toronto and interested in opportunities across **business analytics, data analytics, customer analytics, and risk analytics**.
-
-Feel free to explore my projects or connect with me on LinkedIn.
+I'm based in Toronto and currently exploring opportunities in business analytics, data analytics, customer analytics, and risk analytics.
