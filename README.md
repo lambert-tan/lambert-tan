@@ -1,60 +1,65 @@
-# Hi, I'm Lambert
+# Hi, I'm Lambert 👋
 
-I'm a **Master of Management in Analytics candidate at Queen's University** with a background in Statistics and client-facing banking experience at RBC and TD.
+### I like turning messy data into answers people can actually use.
 
-I became interested in analytics through a simple question: **what does the data actually say, and how should that change a business decision?** Most of my work follows that logic—from cleaning and modelling to validation, interpretation, and communicating the result in a form that someone can actually use.
+I'm a **Master of Management in Analytics candidate at Queen's University** with a background in **Statistics** and client-facing banking experience at **RBC and TD**.
 
-## Selected Projects
+I moved into analytics because I enjoy the part between *“we have data”* and *“so what should we do?”* My projects usually start with a practical question, then work through the data, modelling, validation, and interpretation needed to answer it.
 
-| Project | Question | Methods |
-|---|---|---|
-| [Toronto Airbnb Pricing Analytics](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) | Which listing characteristics are most strongly associated with nightly price in Toronto? | Python, pandas, Statsmodels, log-price OLS, HC3 robust inference, Streamlit |
-| [Negative Review Prediction in E-Commerce](https://github.com/lambert-tan/olist-negative-review-prediction) | How early can an e-commerce business identify orders at risk of receiving a negative review? | Python, scikit-learn, LightGBM, CatBoost, K-Means |
-| [Toronto Warming Centre Optimization](https://github.com/lambert-tan/toronto-warming-centre-optimization) | How should limited staffing and bed capacity be allocated under uncertain winter demand? | Excel Solver, Python, Monte Carlo simulation, optimization |
+📍 Toronto · 📊 Business & Data Analytics · 🐶 Usually working with a Chihuahua nearby
 
-## Toronto Airbnb Pricing Analytics
+---
 
-I analyzed **15,332 Toronto Airbnb listings** to separate the effects of property characteristics, location, and booking features on nightly price.
+## What I'm working on
 
-The final log-price model explains about **61.8% of variation in the test sample**. Entire-home status and bathroom arrangement showed much larger pricing differences than smaller operational features such as instant booking or amenity count.
+I’m especially interested in problems involving **customer behaviour, pricing, risk, and business decision-making**. I work mainly in Python, with experience across statistical modelling, machine learning, simulation, optimization, and BI.
 
-I also rebuilt the analysis as a reproducible Python workflow and developed a small Streamlit application for exploring model-implied pricing scenarios.
+### 🏙️ Toronto Airbnb Pricing Analytics
+**15,332 listings · Pricing · Statistical modelling · Streamlit**
 
-[View repository](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Open live app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
+What actually drives Airbnb prices in Toronto?
 
-## Negative Review Prediction in E-Commerce
+I built a reproducible analysis around a log-price OLS model and found that **property format and bathroom setup explain much larger price differences than smaller operational features**. The final model explains about **61.8% of log-price variation on the test sample**.
 
-Using **95,824 orders from the Olist Brazilian e-commerce dataset**, I built classification models at two stages of the order lifecycle.
+[View the analysis](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Try the live pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
 
-The placement-stage LightGBM model achieved an **F1 score of 0.318** and **ROC-AUC of 0.677**. After delivery information became available, the CatBoost model improved to an **F1 score of 0.484** and **ROC-AUC of 0.768**.
+### 🛒 Negative Review Prediction in E-Commerce
+**95,824 orders · Classification · Customer experience**
 
-The more useful finding was the timing trade-off: the later model was more accurate, but the earlier model gave the business more time to intervene.
+How early can a business identify an order that is likely to end in a negative review?
 
-[View repository](https://github.com/lambert-tan/olist-negative-review-prediction)
+I compared models at different points in the order lifecycle. The later CatBoost model performed better (**ROC-AUC 0.768**), while the earlier model gave the business more time to intervene. The interesting part was not simply which model scored higher, but **when a prediction becomes useful enough to act on**.
 
-## Toronto Warming Centre Optimization
+[View the project](https://github.com/lambert-tan/olist-negative-review-prediction)
 
-This project examines how staffing and bed capacity can be allocated across seven Toronto warming centres under uncertain demand.
+### ❄️ Toronto Warming Centre Optimization
+**Resource allocation · Monte Carlo simulation · Optimization**
 
-The optimization allocated **19 staff** across a network with **301 physical beds**. Under the model assumptions, bed capacity became the binding operational constraint. I then used a **5,000-iteration Monte Carlo simulation** to stress-test the allocation and compare alternative expansion options.
+How should limited staffing and bed capacity be allocated when winter demand is uncertain?
 
-[View repository](https://github.com/lambert-tan/toronto-warming-centre-optimization)
+I combined optimization with a **5,000-iteration Monte Carlo simulation** to stress-test capacity across seven warming centres. The analysis showed how the operational bottleneck could shift from staffing to physical bed capacity.
 
-## Technical Toolkit
+[View the project](https://github.com/lambert-tan/toronto-warming-centre-optimization)
 
-**Python:** pandas, NumPy, scikit-learn, Statsmodels, LightGBM, CatBoost  
-**Analytics:** regression, classification, clustering, model validation, Monte Carlo simulation, optimization  
-**Other tools:** SQL, R, Excel, Tableau, PowerPoint, Git, GitHub
+---
 
-## Background
+## Tools I use
 
-**Queen's University — Smith School of Business**  
-Master of Management in Analytics
+`Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels` · `LightGBM` · `CatBoost`  
+`SQL` · `R` · `Excel` · `Tableau` · `Power BI` · `Streamlit` · `Git`
 
-**BSc in Statistics**
+**Methods:** regression · classification · clustering · model validation · Monte Carlo simulation · optimization
 
-Before moving into analytics, I worked in client-facing banking roles at **RBC and TD**. That experience is still useful in the way I approach analytical work: I care about the model, but I also care about whether the result is understandable, relevant, and usable in a real decision.
+---
 
-## Currently
+## A little more about me
 
-Based in Toronto and exploring opportunities in **business analytics, data analytics, customer analytics, and risk analytics**.
+Before analytics, I worked in client-facing banking at **RBC and TD**. That experience still shapes how I approach data: a technically correct result is only useful if someone can understand what it means and make a better decision with it.
+
+Outside the notebook, I’m usually exploring Toronto, travelling, or spending time with my Chihuahua.
+
+### Currently
+
+🎓 Master of Management in Analytics — **Smith School of Business, Queen's University**  
+🔎 Exploring opportunities in **business analytics, data analytics, customer analytics, and risk analytics**  
+📍 Toronto, Canada
