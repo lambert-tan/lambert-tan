@@ -69,4 +69,4 @@ Outside the notebook, I’m usually exploring Toronto, travelling, or spending t
 
 I'm always happy to connect with people working in analytics, banking, or data-driven decision-making.
 
-**Email:** [tanjianglin845@gmail.com](mailto:tanjianglin845@gmail.com)
+**LinkedIn:** [linkedin.com/in/lamberttan](https://www.linkedin.com/in/lamberttan/) · **Email:** [tanjianglin845@gmail.com](mailto:tanjianglin845@gmail.com)
