@@ -10,18 +10,18 @@ I moved into analytics because I enjoy the part between *“we have data”* and
 
 ---
 
-## What I'm working on
+## Selected analytics projects
 
 I’m especially interested in problems involving **customer behaviour, pricing, risk, and business decision-making**. I work mainly in Python, with experience across statistical modelling, machine learning, simulation, optimization, and BI.
 
 ### 🏙️ Toronto Airbnb Pricing Analytics
-**15,332 listings · Pricing · Statistical modelling · Streamlit**
+**15,332 listings · Pricing · Statistical modelling · Tableau · Streamlit**
 
 What actually drives Airbnb prices in Toronto?
 
-I built a reproducible analysis around a log-price OLS model and found that **property format and bathroom setup explain much larger price differences than smaller operational features**. The final model explains about **61.8% of log-price variation on the test sample**.
+I built a reproducible analysis around a log-price OLS model and an interactive Tableau workbook. The model shows that **property format and bathroom setup are associated with much larger price differences than smaller operational features**, with **test R² = 0.619**.
 
-[View the analysis](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Try the live pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
+[View the project](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Open Tableau dashboard](https://public.tableau.com/views/Toronto_Airbnb_Pricing_Analytics/Dashboard01MarketPulse) · [Try the pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
 
 ### 🛒 Negative Review Prediction in E-Commerce
 **95,824 orders · Classification · Customer experience**
