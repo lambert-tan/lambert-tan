@@ -6,7 +6,7 @@ I'm a **Master of Management in Analytics candidate at Queen's University** with
 
 I moved into analytics because I enjoy the part between *“we have data”* and *“so what should we do?”* My projects usually start with a practical question, then work through the data, modelling, validation, and interpretation needed to answer it.
 
-📍 Toronto · 📊 Business & Data Analytics · 🐶 Usually working with a Chihuahua nearby (Her name is Amiu btw :P)
+📍 Toronto · 📊 Business & Data Analytics · 🐶 Usually working with my Chihuahua, Amiu, nearby
 
 ---
 
@@ -43,11 +43,10 @@ I combined optimization with a **5,000-iteration Monte Carlo simulation** to str
 
 ---
 
-## Tools I use
+## Toolkit
 
-`Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels` · `LightGBM` · `CatBoost`  
-`SQL` · `R` · `Excel` · `Tableau` · `Power BI` · `Streamlit` · `Git`
-
+**Analytics:** `Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels`  
+**Visualization & delivery:** `Tableau` · `Streamlit` · `Excel`  
 **Methods:** regression · classification · clustering · model validation · Monte Carlo simulation · optimization
 
 ---
@@ -63,3 +62,11 @@ Outside the notebook, I’m usually exploring Toronto, travelling, or spending t
 🎓 Master of Management in Analytics — **Smith School of Business, Queen's University**  
 🔎 Exploring opportunities in **business analytics, data analytics, customer analytics, and risk analytics**  
 📍 Toronto, Canada
+
+---
+
+## Connect
+
+I'm always happy to connect with people working in analytics, banking, or data-driven decision-making.
+
+**Email:** [tanjianglin845@gmail.com](mailto:tanjianglin845@gmail.com)
