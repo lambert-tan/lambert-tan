@@ -12,7 +12,7 @@ I moved into analytics because I enjoy the part between *“we have data”* and
 
 ## Selected analytics projects
 
-My projects cover **pricing, customer risk, and resource allocation**, using regression, machine learning, simulation, optimization, dashboards, and lightweight deployment.
+My projects cover **pricing, customer risk, and resource allocation**, using SQL (DuckDB), regression, machine learning, simulation, optimization, dashboards, and lightweight deployment.
 
 ### 🏙️ Toronto Airbnb Pricing Analytics
 **15,332 listings · Regression · Tableau · Streamlit**
@@ -20,6 +20,10 @@ My projects cover **pricing, customer risk, and resource allocation**, using reg
 **Question:** What actually drives Airbnb prices in Toronto?
 
 I built a reproducible pricing analysis using a log-price OLS model, feature engineering, an interactive Tableau workbook, and a Streamlit pricing tool. The final model achieved **test R² = 0.619**. Property format and bathroom setup were associated with larger price differences than smaller operational features.
+
+In DuckDB, I clean the listing data, check the model inputs, and compare median nightly prices across neighbourhoods, room types, and distance bands.
+
+[Listing preparation](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics/blob/main/sql/01_clean_and_engineer.sql) · [Quality checks](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics/blob/main/sql/02_quality_checks.sql) · [Market queries](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics/blob/main/sql/03_market_exploration.sql)
 
 [View the project](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Open Tableau dashboard](https://public.tableau.com/views/Toronto_Airbnb_Pricing_Analytics/Dashboard01MarketPulse) · [Try the pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
 
@@ -29,6 +33,10 @@ I built a reproducible pricing analysis using a log-price OLS model, feature eng
 **Question:** How early can a business identify an order that is likely to end in a negative review?
 
 I compared risk models at two points in the order lifecycle. The LightGBM placement model gives the business more time to respond, while the delivery-stage CatBoost model is more selective and reaches **ROC-AUC 0.768**. I use the comparison to show how model timing affects the type of action a business can take.
+
+I use SQL to aggregate items and payments before joining them to orders, so each delivered order counts once. I then compare negative-review rates by delivery timing and measure how many negative reviews fall in the highest-risk score deciles.
+
+[Order joins](https://github.com/lambert-tan/olist-negative-review-prediction/blob/main/sql/01_build_master_orders.sql) · [Reconciliation checks](https://github.com/lambert-tan/olist-negative-review-prediction/blob/main/sql/02_quality_checks.sql) · [Risk queries](https://github.com/lambert-tan/olist-negative-review-prediction/blob/main/sql/03_risk_analysis.sql) · [Scorecard metrics](https://github.com/lambert-tan/olist-negative-review-prediction/blob/main/sql/04_scorecard_metrics.sql)
 
 [View the project](https://github.com/lambert-tan/olist-negative-review-prediction)
 
@@ -45,7 +53,7 @@ I combined optimization with a **5,000-night Monte Carlo stress test** under a *
 
 ## Toolkit
 
-**Analytics:** `Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels`  
+**Analytics:** `SQL (DuckDB)` · `Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels`  
 **Visualization & delivery:** `Tableau` · `Streamlit` · `Excel`  
 **Methods:** regression · classification · clustering · model validation · Monte Carlo simulation · optimization
 
