@@ -4,7 +4,7 @@
 
 I’m studying for a Master of Management in Analytics at Queen’s University. Before grad school, I studied statistics and worked with banking clients at RBC and TD. What drew me to analytics was the part between “we have data” and “so what should we do?”
 
-📍 Toronto · 🐶 Usually working with my Chihuahua, Amiu, nearby
+📍 Toronto · 🐶 Usually working with my dog, Amiu, nearby
 
 ## Prioritizing customer follow-up at Olist
 
