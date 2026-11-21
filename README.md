@@ -1,6 +1,10 @@
-# Hi, I’m Lambert
+# Hi, I’m Lambert 👋
 
-I’m a Toronto-based analyst with a background in statistics and client-facing banking at RBC and TD. I’m completing the Master of Management in Analytics at Smith School of Business, Queen’s University.
+### I like turning messy data into answers people can actually use.
+
+I’m studying for a Master of Management in Analytics at Queen’s University. Before grad school, I studied statistics and worked with banking clients at RBC and TD. What drew me to analytics was the part between “we have data” and “so what should we do?”
+
+📍 Toronto · 🐶 Usually working with my Chihuahua, Amiu, nearby
 
 ## Prioritizing customer follow-up at Olist
 
@@ -20,6 +24,6 @@ Our graduate team developed a staffing plan for seven warming centres. I rebuilt
 
 [Project and scenario results](https://github.com/lambert-tan/toronto-warming-centre-optimization) · [Simulation notebook](https://github.com/lambert-tan/toronto-warming-centre-optimization/blob/main/notebooks/warming_centre_end_to_end.ipynb)
 
-I work with SQL, Python, Tableau and Excel. Outside work, I’m usually exploring Toronto or spending time with my Chihuahua, Amiu.
+I work with SQL, Python, Tableau and Excel.
 
 [LinkedIn](https://www.linkedin.com/in/lamberttan/) · [Email](mailto:tanjianglin845@gmail.com)
