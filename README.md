@@ -1,6 +1,6 @@
 # Hi, I’m Lambert
 
-I’m a Toronto-based analyst with a background in statistics and client-facing banking at RBC and TD. I’m completing the Master of Management in Analytics at Smith School of Business, Queen’s University, and looking for risk analyst roles.
+I’m a Toronto-based analyst with a background in statistics and client-facing banking at RBC and TD. I’m completing the Master of Management in Analytics at Smith School of Business, Queen’s University, and exploring roles in business analytics, data analytics, and risk.
 
 ## Prioritizing customer follow-up at Olist
 
