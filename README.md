@@ -27,9 +27,9 @@ On the test set, the placement model had a ROC-AUC of **0.658**. The delivery mo
 ### Toronto Warming Centre Optimization
 **7 centres · Python · Monte Carlo simulation · Integer optimization**
 
-Would more staff or more beds help Toronto’s warming centres admit more people on a cold night? I used integer optimization to allocate staff under a **$33,000 nightly budget**, then stress-tested the plan across **5,000 simulated nights**.
+Our graduate team studied how Toronto could allocate staff and beds across seven warming centres. For this portfolio, I rebuilt the demand simulation and tested the team’s 19-person staffing plan across 5,000 nights.
 
-The plan assigns 19 staff, enough to support 380 clients across a network with 301 beds. In the extreme-demand scenario, the centres admitted **297 of 306 people** and stayed within budget. That led me to compare where ten additional beds would help most. The model favoured placing five at Elizabeth and five at Scarborough.
+Under the model’s staffing ratio, every centre had enough staff for its existing beds. In the original extreme-demand scenario, **297 of 306 people** were admitted. The team’s expansion analysis placed five additional beds each at Elizabeth and Scarborough, where the existing shifts could cover them.
 
 [View the project](https://github.com/lambert-tan/toronto-warming-centre-optimization)
 
