@@ -1,60 +1,25 @@
-# Hi, I'm Lambert 👋
+# Hi, I’m Lambert
 
-I'm based in Toronto and studying for a **Master of Management in Analytics at Queen’s University’s Smith School of Business**. My background is in statistics. Before graduate school, I worked with banking clients at RBC and TD. I’m interested in risk and customer analytics, particularly how teams decide which cases need a closer look.
+I’m a Toronto-based analyst with a background in statistics and client-facing banking at RBC and TD. I’m completing the Master of Management in Analytics at Smith School of Business, Queen’s University, and looking for risk analyst roles.
 
----
+## Prioritizing customer follow-up at Olist
 
-## Selected analytics projects
+If a service team can review one in ten orders, when should it choose them? I built an order-level dataset from eight source tables and compared two rankings on the same held-out orders. At placement, the highest-risk 1,917 orders included **567** that received a one- or two-star review. At delivery, the same number of review slots identified **1,071**. Waiting gives the team a better-targeted list, but less time to resolve a problem before the customer experiences it.
 
-### Toronto Airbnb Pricing Analytics
-**15,332 listings · DuckDB · Python · Tableau · Streamlit**
+[Project and results](https://github.com/lambert-tan/olist-negative-review-prediction) · [SQL pipeline](https://github.com/lambert-tan/olist-negative-review-prediction#sql-pipeline-duckdb) · [Validation report](https://github.com/lambert-tan/olist-negative-review-prediction/blob/main/docs/model_validation_report.md)
 
-I wanted to know how much location matters for nightly price once you account for the listing itself. I used DuckDB to clean the raw listings, check the sample, and compare median prices by neighbourhood and room type. I then fitted a log-price regression in Python to compare listings with similar characteristics.
+## Benchmarking Toronto Airbnb asking prices
 
-Holding the other model inputs constant, entire homes were priced **43.8% higher** than private rooms, while each additional kilometre from Union Station was associated with a **2.7% lower** nightly price. The Tableau dashboard shows the market comparisons, and the Streamlit app lets you change listing details to explore the model estimate.
+For a host choosing a nightly rate, the first decision is which listings belong in the comparison. I led the original graduate project and rebuilt the analysis and pricing app for this portfolio. Across 15,332 listings, entire homes had a median asking price of CAD 167, compared with CAD 65 for private rooms. In the regression, the estimated difference was **43.8%** at comparable capacity, location and other measured characteristics. I’d use the dashboard to find comparable properties before using the model to explore a rate.
 
-[Explore the SQL queries](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics#sql-layer-duckdb) · [View the project](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics) · [Open Tableau dashboard](https://public.tableau.com/views/Toronto_Airbnb_Pricing_Analytics/Dashboard01MarketPulse) · [Try the pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
+[Project and SQL](https://github.com/lambert-tan/toronto-airbnb-pricing-analytics#sql-layer-duckdb) · [Tableau dashboard](https://public.tableau.com/views/Toronto_Airbnb_Pricing_Analytics/Dashboard01MarketPulse) · [Pricing app](https://toronto-airbnb-pricing-analytics-jthhn2unchpj3ewyfbnyfq.streamlit.app/)
 
-### Negative Review Prediction in E-Commerce
-**95,824 delivered orders · DuckDB · LightGBM · CatBoost**
+## Stress-testing Toronto warming centre capacity
 
-How early can a service team spot an order likely to receive a one- or two-star review? I used SQL to build one record per order, aggregating items and payments before joining them so that larger baskets wouldn’t count more than once. I then compared two models using only the information available when an order was placed or delivered.
+Our graduate team developed a staffing plan for seven warming centres. I rebuilt the demand simulation in Python to see where that plan could fall short. In the original extreme-weather scenario, nine people were turned away. Across 574 simulated extreme nights, the average was **17 per night**. The model also assumes spare beds can receive transfers across sites. Which centres can actually accept transfers is a question I’d settle with operators before using the simulation to plan a shift.
 
-On the test set, the placement model had a ROC-AUC of **0.658**. The delivery model, which could also use shipping and delivery times, reached **0.775**. The highest-risk 10% of orders accounted for **43.6% of negative reviews** in the test set. A service team could use that ranking to prioritize follow-up.
+[Project and scenario results](https://github.com/lambert-tan/toronto-warming-centre-optimization) · [Simulation notebook](https://github.com/lambert-tan/toronto-warming-centre-optimization/blob/main/notebooks/warming_centre_end_to_end.ipynb)
 
-[Explore the SQL queries](https://github.com/lambert-tan/olist-negative-review-prediction#sql-pipeline-duckdb) · [View the project](https://github.com/lambert-tan/olist-negative-review-prediction)
+I work with SQL, Python, Tableau and Excel. Outside work, I’m usually exploring Toronto or spending time with my Chihuahua, Amiu.
 
-### Toronto Warming Centre Optimization
-**7 centres · Python · Monte Carlo simulation · Integer optimization**
-
-Our graduate team studied how Toronto could allocate staff and beds across seven warming centres. For this portfolio, I rebuilt the demand simulation and tested the team’s 19-person staffing plan across 5,000 nights.
-
-Under the model’s staffing ratio, every centre had enough staff for its existing beds. In the original extreme-demand scenario, **297 of 306 people** were admitted. The team’s expansion analysis placed five additional beds each at Elizabeth and Scarborough, where the existing shifts could cover them.
-
-[View the project](https://github.com/lambert-tan/toronto-warming-centre-optimization)
-
----
-
-## Toolkit
-
-**Analytics:** `SQL (DuckDB)` · `Python` · `pandas` · `NumPy` · `scikit-learn` · `Statsmodels`  
-**Visualization & delivery:** `Tableau` · `Streamlit` · `Excel`  
-**Methods:** regression · classification · clustering · model validation · Monte Carlo simulation · optimization
-
----
-
-## A little more about me
-
-Outside work, I like exploring Toronto, travelling, and spending time with my Chihuahua, Amiu.
-
-### Currently
-
-🎓 Master of Management in Analytics — **Smith School of Business, Queen's University**  
-🔎 Exploring opportunities in **business analytics, data analytics, customer analytics, and risk analytics**  
-📍 Toronto, Canada
-
----
-
-## Connect
-
-**LinkedIn:** [linkedin.com/in/lamberttan](https://www.linkedin.com/in/lamberttan/) · **Email:** [tanjianglin845@gmail.com](mailto:tanjianglin845@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/lamberttan/) · [Email](mailto:tanjianglin845@gmail.com)
