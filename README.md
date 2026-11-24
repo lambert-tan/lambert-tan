@@ -4,6 +4,8 @@
 
 I’m studying for a Master of Management in Analytics at Queen’s University. Before grad school, I studied statistics and worked with banking clients at RBC and TD. What drew me to analytics was the part between “we have data” and “so what should we do?”
 
+Outside my analytics work, I’m building [CanadaGo](#canadago), a mobile app for discovering Toronto on foot.
+
 📍 Toronto · 🐶 Usually working with my dog, Amiu, nearby
 
 ## 🧰 Skills in practice
@@ -16,6 +18,12 @@ I’m studying for a Master of Management in Analytics at Queen’s University. 
 | Operational planning | Simulate the same nights under two transfer policies to isolate the effect of bed availability on unmet demand. | [Python sensitivity analysis](https://github.com/lambert-tan/toronto-warming-centre-optimization/blob/main/notebooks/warming_centre_end_to_end.ipynb) |
 
 ## 📂 Selected projects
+
+<a id="canadago"></a>
+
+### 📱 CanadaGo · Mobile app in development
+
+How do you guide someone to a café and still let the destination be a surprise? I’m building CanadaGo in **React Native, Expo and TypeScript** to explore that idea. The app matches walks to the time someone has and checks whether the destination will be open when they arrive. For the High Park walk, I’m working on a detail that matters outdoors: a single GPS reading can drift, so the app waits for two accurate readings near the destination before revealing it.
 
 ### 🛒 Prioritizing customer follow-up at Olist
 
