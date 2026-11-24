@@ -4,7 +4,7 @@
 
 I’m studying for a Master of Management in Analytics at Queen’s University. Before grad school, I studied statistics and worked with banking clients at RBC and TD. What drew me to analytics was the part between “we have data” and “so what should we do?”
 
-Outside my analytics work, I’m building [CanadaGo](#canadago), a mobile app for discovering Toronto on foot.
+Outside my analytics work, I’m building [CanadaGo](#canadago), a mobile app for those days when you want to get outside but have no idea where to go.
 
 📍 Toronto · 🐶 Usually working with my dog, Amiu, nearby
 
@@ -23,7 +23,9 @@ Outside my analytics work, I’m building [CanadaGo](#canadago), a mobile app fo
 
 ### 📱 CanadaGo · Mobile app in development
 
-How do you guide someone to a café and still let the destination be a surprise? I’m building CanadaGo in **React Native, Expo and TypeScript** to explore that idea. The app matches walks to the time someone has and checks whether the destination will be open when they arrive. For the High Park walk, I’m working on a detail that matters outdoors: a single GPS reading can drift, so the app waits for two accurate readings near the destination before revealing it.
+Sometimes I have twenty minutes for a walk and want to see a different part of Toronto. With CanadaGo, you pick how long you want to walk and the app takes you on a mystery trip. You get directions along the way, but the destination stays hidden until you arrive. Once there, you can check in, collect a stamp and keep a postcard from the walk in your trip journal.
+
+I’m building it with **React Native, Expo and TypeScript**. On the High Park route, the app checks two GPS readings near the destination before revealing it, so a stray reading won’t spoil the surprise. I’m also designing the community side around what happens after a walk, when you can share a discovery and hear from other people who’ve been there.
 
 ### 🛒 Prioritizing customer follow-up at Olist
 
